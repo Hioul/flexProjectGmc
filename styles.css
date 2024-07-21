@@ -1,5 +1,8 @@
 * {
   font-family: "Roboto", sans-serif;
+  /* margin: 0px;
+  padding: 0px; */
+  /* border: 1px solid red; */
 }
 
 img {
@@ -11,8 +14,9 @@ li {
   padding: 0 9px;
 }
 
-.links {
+a {
   color: #ababab;
+  text-decoration: none;
 }
 
 .links-about {
@@ -27,4 +31,37 @@ li {
 .main-menu {
   display: flex;
   align-items: center;
+}
+
+.lead-title {
+  text-align: center;
+  color: #00b39b;
+  font-size: 34px;
+  margin: 34px 0px;
+  font-weight: lighter;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lead-logo {
+  width: 40px;
+  margin-left: auto;
+}
+
+.container > div {
+  width: 500px;
+}
+
+div > p {
+  font-size: 16px;
+  color: #747474;
+  margin: 12.8px 0px;
+}
+
+.container > img {
+  margin: 0px;
 }
