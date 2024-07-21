@@ -5,7 +5,7 @@
   /* border: 1px solid red; */
 }
 
-img {
+.main-logo {
   width: 270px;
 }
 
@@ -64,4 +64,46 @@ div > p {
 
 .container > img {
   margin: 0px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+}
+.card1 {
+  background-color: #00b39b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 32px 0px 32px;
+}
+
+.card2 {
+  background-color: #3d83df;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 32px 0px 32px;
+}
+.card3 {
+  background-color: #1b2734;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 32px 0px 32px;
+}
+
+.cards h1 {
+  font-size: 26px;
+  color: white;
+  font-weight: 200;
+  margin: 6px 0px;
+  margin: 7.8px 0px;
+}
+.cards h2 {
+  font-size: 24px;
+  color: white;
+  font-weight: lighter;
 }
